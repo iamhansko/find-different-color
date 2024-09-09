@@ -49,3 +49,17 @@
 - 게임 종료 기능
 - 홈 이동
 - 다시 시작
+
+# 실행
+
+```bash
+# Development Stage
+npm install
+npm run start
+
+# Production Stage
+npm install
+npm run build
+npm install -g serve
+npx serve -s build
+```
